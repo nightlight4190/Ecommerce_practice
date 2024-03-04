@@ -1,0 +1,50 @@
+h1 {
+    color: aquamarine;
+}
+#topheader {
+    background: #cccccc;
+    color: #717070;
+}
+#topheader a {
+    color: black;
+    text-decoration: none;
+}
+
+.topmenu {
+    text-align: right;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.container {
+    /* margin-top: 20px; */
+    padding: 3px;
+}
+
+.row {
+    display: flex;
+}
+
+#home {
+    background: #eb5310;
+}
+
+footer {
+    background: #eb5310;
+    margin-top: 20rem;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+}
