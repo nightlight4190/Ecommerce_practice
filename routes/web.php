@@ -24,4 +24,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/add/product', [App\Http\Controllers\HomeController::class, 'getAddproduct'])->name('getAddProduct');
-Route::post('/add/product', [App\Http\Controllers\HomeController::class, 'postAddCategory'])->name('postAddCategory');
+Route::post('/add/product', [App\Http\Controllers\HomeController::class, 'postAddProduct'])->name('postAddProduct');

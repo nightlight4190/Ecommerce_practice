@@ -29,7 +29,8 @@ class HomeController extends Controller
     public function getAddproduct(){
         return view('admin.product.add');
     }
-    public function postAddCategory(Request $request){
+    public function postAddPrdouct(Request $request){
+
         $name = $request->name1;
         $detail = $request->detail;
         $status = $request->status;
